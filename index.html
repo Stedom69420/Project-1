@@ -15,24 +15,29 @@
 
 <body>
     <header class="header">
-        <ul class="header-list">
-            <li class="header-item">About us</li>
-            <li class="header-item">Delivery</li>
-            <li class="header-item">Menu</li>
-            <li class="header-item">Contacts</li>
-            <li class="header-item">Rewiew</li>
-        </ul>
-    </header>
-    <main class="main">
+        <nav>
+            <ul class="header-list">
+                <li class="header-item">About us</li>
+                <li class="header-item">Delivery</li>
+                <li class="header-item">Menu</li>
+                <li class="header-item">Contacts</li>
+                <li class="header-item">Rewiew</li>
+            </ul>
+        </nav>
         <section class="section-main">
-            <h1 class="main-header">TRADITIONAL ARTISAX BAKERY</h1>
-            <p class="main-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also
-                the leap into electronic typesetting, remaining essentially unchanged.</p>
-            <button class="main-button">SHOP NOW</button>
+            <div class="main-title-container">
+                <h1 class="main-header">TRADITIONAL ARTISAX BAKERY</h1>
+                <p class="main-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                    Ipsum
+                    has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                    galley
+                    of type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+                    also
+                    the leap into electronic typesetting, remaining essentially unchanged.</p>
+                <button class="main-button">SHOP NOW</button>
+            </div>
             <div class="main-figure-container">
-                <figure class="main-figure figure-1">
+                <figure class="main-figure">
                     <img src="img/cookies.png" class="main-img">
                     <figcaption class="main-figcaption">
                         <p class="main-price">$8.00(kg)</p>
@@ -40,7 +45,7 @@
                         <button class="main-button-buy">BUY</button>
                     </figcaption>
                 </figure>
-                <figure class="main-figure figure-2">
+                <figure class="main-figure">
                     <img src="img/cwoasan.png" class="main-img">
                     <figcaption class="main-figcaption">
                         <p class="main-price">$4.00</p>
@@ -48,7 +53,7 @@
                         <button class="main-button-buy">BUY</button>
                     </figcaption>
                 </figure>
-                <figure class="main-figure figure-3">
+                <figure class="main-figure">
                     <img src="img/bluberry-pie.png" class="main-img">
                     <figcaption class="main-figcaption">
                         <p class="main-price">For piece $4.00</p>
@@ -58,86 +63,140 @@
                 </figure>
             </div>
         </section>
+    </header>
+    <main class="main">
         <section class="section-menu">
             <h1>Menu</h1>
-            <figure>
-                <img src="img/bread.png">
-                <p>Breads</p>
-            </figure>
-            <button>Order</button>
-            <figure>
-                <img src="img/Bakary.png">
-                <p>Bakery</p>
-            </figure>
-            <button>Order</button>
-            <figure>
-                <img src="img/pie-and-cupcake.png">
-                <p>Cakes & Capcakes</p>
-            </figure>
-            <button>Order</button>
-            <figure>
-                <img src="img/cookies-and-bagels.png">
-                <p>Coockies&Pretzels</p>
-            </figure>
-            <button>Order</button>
+            <div class="section-menu-container">
+                <figure>
+                    <div class="menu-figure-wrap">
+                        <img src="img/bread.png">
+                        <p>Breads</p>
+                    </div>
+                    <button>Order</button>
+                </figure>
+
+                <figure>
+                    <img src="img/bakary.png">
+                    <p>Bakery</p>
+                    <button>Order</button>
+                </figure>
+
+                <figure>
+                    <img src="img/pie-and-cupcake.png">
+                    <p>Cakes & Capcakes</p>
+                    <button>Order</button>
+                </figure>
+
+                <figure>
+                    <img src="img/cookies-and-bagels.png">
+                    <p>Coockies&Pretzels</p>
+                    <button>Order</button>
+                </figure>
+
+            </div>
         </section>
-        <section class="section-quality_our_bekary">
+        <section class="section-quality-our-bekary">
             <h1>Quality our bekary</h1>
-            <figure>
-                <img src="img/bread.png">
-                <figcaption>
-                    <p>1.Flour with fresh wheat</p>
-                    <p>2.New drozzhi</p>
-                    <p>3.Fresh eggs</p>
-                    <p>4.Water from the well</p>
-                </figcaption>
-            </figure>
-            <figure>
-                <img src="img/cookies.png">
-                <figcaption>
-                    <p>1.Flour with fresh wheat</p>
-                    <p>2.New drozzhi</p>
-                    <p>3.Fresh eggs</p>
-                    <p>4.Water from the well</p>
-                </figcaption>
-            </figure>
-            <figure>
-                <img src="img/pie.png">
-                <figcaption>
-                    <p>1.Flour with fresh wheat</p>
-                    <p>2.New drozzhi</p>
-                    <p>3.Fresh eggs</p>
-                    <p>4.Water from the well</p>
-                </figcaption>
-            </figure>
+            <div class="section-quality-container">
+                <figure>
+                    <img src="img/bread.png">
+                    <figcaption>
+                        <p>1.Flour with fresh wheat</p>
+                        <p>2.New drozzhi</p>
+                        <p>3.Fresh eggs</p>
+                        <p>4.Water from the well</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="img/cookies.png">
+                    <figcaption>
+                        <p>1.Flour with fresh wheat</p>
+                        <p>2.New drozzhi</p>
+                        <p>3.Fresh eggs</p>
+                        <p>4.Water from the well</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="img/pie.png">
+                    <figcaption>
+                        <p>1.Flour with fresh wheat</p>
+                        <p>2.New drozzhi</p>
+                        <p>3.Fresh eggs</p>
+                        <p>4.Water from the well</p>
+                    </figcaption>
+                </figure>
+            </div>
+
         </section>
         <section class="section-traditionalartisax_bakety">
-            <h1>Why TRADITIONALARTISAX BAKERY ?</h1>
-            <figure>
-                <img src="img/bell.png">
-                <figcaption>
-                    <p>Order at home</p>
-                </figcaption>
-            </figure>
-            <figure>
-                <img src="img/plate.png">
-                <figcaption>
-                    <p>Fresh food</p>
-                </figcaption>
-            </figure>
-            <figure>
-                <img src="img/office.png">
-                <figcaption>
-                    <p>Speed Delivery 24 h</p>
-                </figcaption>
-            </figure>
+            <h1 class="traditional-backery-title">Why TRADITIONALARTISAX BAKERY ?</h1>
+            <div class="traditional-backery-section-container">
+                <figure class="traditional-backery-figure">
+                    <img src="img/bell.png" class="traditional-backery-img">
+                    <figcaption class="traditional-backery-figcaption">
+                        <p class="traditional-backery-text">Order at home</p>
+                    </figcaption>
+                </figure>
+                <figure class="traditional-backery-figure">
+                    <img src="img/plate.png" class="traditional-backery-img">
+                    <figcaption class="traditional-backery-figcaption">
+                        <p class="traditional-backery-text">Fresh food</p>
+                    </figcaption>
+                </figure>
+                <figure class="traditional-backery-figure">
+                    <img src="img/office.png" class="traditional-backery-img">
+                    <figcaption class="traditional-backery-figcaption">
+                        <p class="traditional-backery-text">Speed Delivery 24 h</p>
+                    </figcaption>
+                </figure>
+            </div>
         </section>
         <section class="section-where">
-            <iframe src="https://www.google.com/maps/place/%D0%9A%D1%83%D0%BB%D0%B8%D0%BD%D0%B8%D1%87%D1%96/@49.9657507,36.3209988,20z/data=!4m6!3m5!1s0x41270a4f68b30c45:0xfa3aef9c2e9680d3!8m2!3d49.9656908!4d36.3210304!16s%2Fg%2F11cnwkmkkw?entry=ttu" width="535.21px" height="487px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <h1>Where</h1>
+            <div class="section-where-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d325483.7700199056!2d30.175432653043913!3d50.406782978147675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cfc817ce1a0d%3A0xe279adfac65ece4!2z0JrRg9C70LjQvdC40YfRlg!5e0!3m2!1sru!2sua!4v1710437449055!5m2!1sru!2sua"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="iframe-wrap-how">
+                    <h3>How</h3>
+                    <a href="tel:+38 055 123 13 12">+38 055 123 13 12</a>
+                    <p>Tik tok.:@TR.Bekary</p>
+                    <p>Inst:@TR.Bekary</p>
+                </div>
+                <div class="iframe-wrap-when">
+                    <h3>When</h3>
+                    <p>with 8:30 to 20:30</p>
+                </div>
+            </div>
         </section>
     </main>
     <footer class="footer">
-
+        <div class="footer-container">
+            <div class="footer-name-wrap">
+                <h2>TRADITIONAL ARTISAX BAKERY</h2>
+                <p>We want be helthy</p>
+            </div>
+            <div class="footer-about-wrap">
+                <h3>About</h3>
+                    <a href="#">About us</a>
+                    <a href="#">Features</a>
+                    <a href="#">News & Blog</a>
+            </div>
+            <div class="footer-movement-wrap">
+                <h3>Movement</h3>
+                    <a href="#">What Eatly</a>
+                    <a href="#">Support Us</a>
+            </div>
+            <div class="footer-company-wrap">
+                <h3>Company</h3>
+                    <a href="#">Why Eatly</a>
+                    <a href="#">Capital</a>
+                    <a href="#">Securaty</a>
+            </div>
+        </div>
+        <p>@2022 Eatly.All right riserved.</p>
     </footer>
 </body>
 </html>
