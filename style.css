@@ -6,6 +6,7 @@
     --figure-hover-background-color:#EBAD51;
     --background-color: #202023;
     --traditional-backery-title: #D9D9D9;
+    --header-item-color: #FFFFFF;
 }
 body {
     font-style: 'Inter';
@@ -19,9 +20,13 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
+    list-style: none;
 }
 .header-item {
-
+    color: var(--header-item-color);
+    line-height: 121%;
+    font-size: 24px;
+    margin-right: 35px;
 }
 .section-traditionalartisax_bakety {
     background-image: linear-gradient(to right, #000000, #03030300), url(img/coffee-background.png);
