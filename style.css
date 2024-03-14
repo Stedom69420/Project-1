@@ -89,3 +89,8 @@ body {
     flex-wrap: wrap;
     width: 735px;
 }
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
