@@ -1,0 +1,76 @@
+:root {
+    --main-text: #FFFFFF;
+    --button-color: #B47B48;
+    --figcaption-button-color: #C85312;
+    --figure-background-color: #272727;
+    --figure-hover-background-color:#EBAD51;
+    --background-color: #202023;
+}
+body {
+    font-style: 'Inter';
+}
+.section-main {
+    background-image: url(img/first-section-background.png);
+    background-repeat: no-repeat;
+}
+.main-text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 570px;
+    font-weight: 300px;
+    font-size: 21px;
+    line-height: 121%;
+    color: var(--main-text);
+    margin-left: 160px;
+}
+.main-header {
+    color: var(--main-text);
+    font-weight: 200;
+    line-height: 121%;
+    font-size: 70px;
+    flex-wrap: wrap;
+    width: 561px;
+    margin-left: 146px;
+}
+.main-button {
+    line-height: 121%;
+    font-size: 24px;
+    font-weight: 300;
+    color: var(--main-text);
+    background-color: var(--button-color);
+    margin-left: 157px;
+}
+.main-figure {
+    background: linear-gradient(to right, #000000, #00000000);
+    margin-left: 162px;
+    width: 310px;
+    height: 225px;
+    display: flex;
+    background-color: var(--figure-background-color);
+}
+.main-figure:hover {
+    background: linear-gradient(to right, #000000, #00000000);
+    margin-left: 162px;
+    width: 310px;
+    height: 225px;
+    display: flex;
+    background-color: var(--figure-hover-background-color);
+}
+.figure-1 {
+    margin-left: 160px;
+    margin-right: 104px;
+}
+.figure-2 {
+    margin-left: 104px;
+    margin-right: 120px;
+}
+.figure-3{
+    margin-left: 120px;;
+    margin-right: 115px;
+}
+.main-figure-container {
+    display: flex;
+}
+.section-traditionalartisax_bakety {
+    background-color: var(--background-color);
+}
