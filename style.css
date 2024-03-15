@@ -149,6 +149,9 @@ body {
 .section-quality-our-bekary {
     height: 852px;
     background-color: var(--background-color);
+    background-image: url(img/quality-our-bekary.png);
+    background-repeat: repeat-x;
+    background-position: left 200% bottom;
 }
 .quality-figure {
     width: 30%;
@@ -156,4 +159,17 @@ body {
 }
 .quality-figure:nth-child(3){
     align-self: bottom;
+}
+.quality-title {
+    position: absolute;
+    font-size: 64px;
+    line-height: 117%;
+    font-weight: 400;
+    font-family: 'Italiana';
+    color: var(--main-text);
+    text-align: center;
+    right: 0;
+}
+.quality-container {
+    position: relative;
 }
