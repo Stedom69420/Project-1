@@ -63,6 +63,9 @@ body {
     font-weight: 300;
     color: var(--main-text);
     background-color: var(--button-color);
+    border-radius: 17px;
+    width: 207px;
+    height: 57px;
 }
 .main-figure-container {
     display:flex;
